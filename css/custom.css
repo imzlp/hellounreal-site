@@ -45,6 +45,17 @@
     padding-top: 30px;
 }
 
+
+@media (max-width: 800px){
+    .bilberry-hugo-theme .main article {
+        margin: 10px;
+        width: 100%;
+    }    
+    .bilberry-hugo-theme .main .article-wrapper {
+        padding-top: 5px;
+    }
+}
+
 body {
     line-height: 1.2em;
 }
