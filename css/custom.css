@@ -23,6 +23,10 @@
     width: 93px;
 }
 
+.bilberry-hugo-theme .main {
+    margin-bottom: 0em;
+}
+
 .bilberry-hugo-theme article .content .meta {
     border-bottom: 1px double #eee;
     letter-spacing: 1px;
