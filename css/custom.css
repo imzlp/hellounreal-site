@@ -21,8 +21,14 @@
 	border: 2px solid #eee;
     height: 93px;
     width: 93px;
+    max-height: 100%;
+    max-width: 100%;
 }
 
+.bilberry-hugo-theme header .logo img {
+    max-height: 100%;
+    max-width: 100%;
+}
 .bilberry-hugo-theme .main {
     margin-bottom: 0em;
 }
