@@ -49,6 +49,10 @@
     padding-top: 30px;
 }
 
+.bilberry-hugo-theme article .content blockquote {
+    border-left: 4px solid #754444;
+    background: lightgray;
+}
 
 @media (max-width: 800px){
     .bilberry-hugo-theme .main article {
