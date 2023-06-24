@@ -62,6 +62,10 @@
     .bilberry-hugo-theme .main .article-wrapper {
         padding-top: 5px;
     }
+    .bilberry-hugo-theme .main .paginator {
+        margin: 0px;
+        padding-bottom: 0px;
+    }
 }
 
 body {
