@@ -8,7 +8,8 @@ App Store安装：RealityScan - 3D Scanning App Google Play安装：RealityScan 
 Exec: The function can be executed from the in-game console. Exec commands only function when declared within certain Classes.
 但具体是在哪些类中有效果却没说。调试后发现：
 UWorld APlayerController APawn AHUD AGameMode UCheatManager AGameState APlayerCameraManager 具体代码为：Runtime/Engine/Private/Player.cpp#L94
-bool UPlayer::Exec( UWorld* InWorld, const TCHAR* Cmd,FOutputDevice&amp;amp; Ar) 调用栈：</description></item><item><title>GitDependencies错误</title><link>https://hellounreal.com/status/2023/gitdependencies-error/</link><pubDate>Fri, 19 May 2023 20:45:44 +0800</pubDate><guid>https://hellounreal.com/status/2023/gitdependencies-error/</guid><description>GitDependencies错误 2023年5月，Epic出现CDN故障，导致源码版引擎在执行setup.bat时会出现错误。
+bool UPlayer::Exec( UWorld* InWorld, const TCHAR* Cmd,FOutputDevice&amp;amp; Ar) 调用栈：</description></item><item><title>Remove C++ UHT</title><link>https://hellounreal.com/status/epic/removed-cpp-uht/</link><pubDate>Wed, 14 Jun 2023 19:10:55 +0800</pubDate><guid>https://hellounreal.com/status/epic/removed-cpp-uht/</guid><description>Removed C++ UHT 在ue5-main分支中，由UE4集成来的C++版本的UHT已经被移除：Removed C++ UHT
+替换为了C#实现的UHT：EpicGames.UHT</description></item><item><title>GitDependencies错误</title><link>https://hellounreal.com/status/2023/gitdependencies-error/</link><pubDate>Fri, 19 May 2023 20:45:44 +0800</pubDate><guid>https://hellounreal.com/status/2023/gitdependencies-error/</guid><description>GitDependencies错误 2023年5月，Epic出现CDN故障，导致源码版引擎在执行setup.bat时会出现错误。
 解决方案：从github上下载对应版本的Engine/Build/Commit.gitdeps.xml并替换。
 相关链接：
 Upcoming Disruption of Service Impacting Unreal Engine Users on GitHub UnrealEngine Github Releases</description></item></channel></rss>
